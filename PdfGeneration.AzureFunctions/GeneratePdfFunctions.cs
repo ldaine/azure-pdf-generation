@@ -28,10 +28,11 @@ namespace PdfGeneration.AzureFunctions
             log.LogInformation("C# HTTP trigger function processed a request.");
 
             log.LogInformation($"fileName: {fileName}");
+            log.LogInformation($"pdfGenerator: {pdfGenerator}");
 
             await container.CreateIfNotExistsAsync();
 
-            var blobFileName = $"selectpdf-{fileName}.pdf";
+            var blobFileName = $"{pdfGenerator}-{fileName}.pdf";
             var blobClient = container.GetBlobClient(blobFileName);
             if (blobClient.Exists())
             {
@@ -46,7 +47,8 @@ namespace PdfGeneration.AzureFunctions
 
             Stream stream = pdfGenerator switch
             {
-                PdfGeneratorType.SelectPdf => HtmlToPdfWithSelectPdf.Convert(content),
+                PdfGeneratorType.SelectPdf => HtmlToPdfWithSelectPdf.Convert(content, log),
+                PdfGeneratorType.PuppeteerSharp => await HtmlToPdfWithPuppeteer.Convert(content, log),
                 _ => throw new System.NotImplementedException()
             };
 

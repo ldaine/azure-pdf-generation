@@ -1,12 +1,14 @@
-﻿using SelectPdf;
+﻿using Microsoft.Extensions.Logging;
+using SelectPdf;
 
 
 namespace PdfGeneration.HtmlToPdf
 {
     public class HtmlToPdfWithSelectPdf
     {
-        public static Stream Convert(string htmlAsAstring)
+        public static Stream Convert(string htmlAsAstring, ILogger log)
         {
+            log.LogInformation("Converting to pdf using SelectPdf");
             // instantiate a html to pdf converter object
             var converter = new SelectPdf.HtmlToPdf();
 
