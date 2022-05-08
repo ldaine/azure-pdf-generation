@@ -1,3 +1,3 @@
 # azure-pdf-generation
 
-Tet environment for testing PDF generation from HTML string.
+Test environment for testing PDF generation from HTML string.
