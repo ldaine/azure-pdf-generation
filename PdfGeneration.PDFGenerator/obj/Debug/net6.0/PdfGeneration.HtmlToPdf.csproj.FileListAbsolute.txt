@@ -1,0 +1,13 @@
+C:\Users\ldaine\code\github\azure-pdf-generation\PdfGeneration.PDFGenerator\obj\Debug\net6.0\PdfGeneration.HtmlToPdf.csproj.AssemblyReference.cache
+C:\Users\ldaine\code\github\azure-pdf-generation\PdfGeneration.PDFGenerator\obj\Debug\net6.0\PdfGeneration.HtmlToPdf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ldaine\code\github\azure-pdf-generation\PdfGeneration.PDFGenerator\obj\Debug\net6.0\PdfGeneration.HtmlToPdf.AssemblyInfoInputs.cache
+C:\Users\ldaine\code\github\azure-pdf-generation\PdfGeneration.PDFGenerator\obj\Debug\net6.0\PdfGeneration.HtmlToPdf.AssemblyInfo.cs
+C:\Users\ldaine\code\github\azure-pdf-generation\PdfGeneration.PDFGenerator\obj\Debug\net6.0\PdfGeneration.HtmlToPdf.csproj.CoreCompileInputs.cache
+C:\Users\ldaine\code\github\azure-pdf-generation\PdfGeneration.PDFGenerator\bin\Debug\net6.0\Select.Html.dep
+C:\Users\ldaine\code\github\azure-pdf-generation\PdfGeneration.PDFGenerator\bin\Debug\net6.0\PdfGeneration.HtmlToPdf.deps.json
+C:\Users\ldaine\code\github\azure-pdf-generation\PdfGeneration.PDFGenerator\bin\Debug\net6.0\PdfGeneration.HtmlToPdf.dll
+C:\Users\ldaine\code\github\azure-pdf-generation\PdfGeneration.PDFGenerator\bin\Debug\net6.0\PdfGeneration.HtmlToPdf.pdb
+C:\Users\ldaine\code\github\azure-pdf-generation\PdfGeneration.PDFGenerator\obj\Debug\net6.0\PdfGeneration.HtmlToPdf.dll
+C:\Users\ldaine\code\github\azure-pdf-generation\PdfGeneration.PDFGenerator\obj\Debug\net6.0\refint\PdfGeneration.HtmlToPdf.dll
+C:\Users\ldaine\code\github\azure-pdf-generation\PdfGeneration.PDFGenerator\obj\Debug\net6.0\PdfGeneration.HtmlToPdf.pdb
+C:\Users\ldaine\code\github\azure-pdf-generation\PdfGeneration.PDFGenerator\obj\Debug\net6.0\ref\PdfGeneration.HtmlToPdf.dll
